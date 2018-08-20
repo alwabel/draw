@@ -8,7 +8,7 @@
 #include <string>
 using std::string;
 
-
+/* Contact: Abdulla Alwabel alwabel@usc.edu */
 #define H 1000
 #define W 1000
 namespace draw{

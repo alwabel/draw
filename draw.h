@@ -1,6 +1,7 @@
 /* 
   This is a reimplementation of the https://github.com/daveagp/draw
   instead of using Qt GUI it produces animated PNG
+  Contact: Abdulla Alwabel alwabel@usc.edu
 */
 
 #ifndef _H_DRAW
