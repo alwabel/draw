@@ -705,8 +705,8 @@ public:
     const char *s = getenv("_");
     filename = s;
     size_t p;
-    if( (p=filename.rfind("./")) != string::npos) { 
-      filename = filename.substr(p+2);
+    if( (p=filename.rfind("/")) != string::npos) { 
+      filename = filename.substr(p+1);
     }
     filename += ".png";
 
